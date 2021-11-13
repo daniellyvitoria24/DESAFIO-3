@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Realizar Financiamento</title>
+</head>
+
+<body>
+    <main>
+        <div class="section">
+
+            <div class="title">Calcular Financiamento </div>
+
+            <div class="input">
+
+                <input placeholder="Insira seu nome" type="text" id='nome' required="required">
+            </div>
+
+            <div class="input">
+
+                <input placeholder="" type="text" id='monthlyIncome' required="required">
+            </div>
+
+            <div class="input">
+
+                <input placeholder="" type="number" id='itemValue' required="required">
+            </div>
+
+            <div class="input">
+
+                <input placeholder="" type="number" id='entranceValue' step=1 required="required">
+            </div>
+            <div class="input">
+
+                <input placeholder="" type="number" id='interestRate' required="required">
+            </div>
+
+            <div class="input">
+
+                <input placeholder="" type="number" id='installmentNumber' required="required">
+            </div>
+
+            <button id='calcular'>Calcular</button>
+
+            <div class="result" id='resultText'></div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
